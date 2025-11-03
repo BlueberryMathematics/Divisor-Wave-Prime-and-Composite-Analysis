@@ -1,0 +1,31 @@
+{
+  "name": "divisor-wave-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.5",
+    "axios": "^1.13.1",
+    "framer-motion": "^11.0.0",
+    "katex": "^0.16.9",
+    "next": "^15.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-katex": "^3.0.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "24.9.2",
+    "@types/react": "19.2.2",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "tailwindcss": "^4"
+  }
+}

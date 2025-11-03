@@ -1,0 +1,94 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# PDF files (uncomment if you don't want to track PDFs)
+# *.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.next/
+out/
+build
+
+# VS Code
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/settings.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Mathematica
+*.nb.bak
+
+# Temporary files
+*~
+*.tmp
+*.temp
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+
+# Processing IDE files
+.pde~
+
+# Large data files (uncomment to ignore)
+# graphs/**/*.png
+# graphs/**/*.jpg
+# graphs/**/*.jpeg
+
+# latex env
+divisor-wave-research.code-workspace
