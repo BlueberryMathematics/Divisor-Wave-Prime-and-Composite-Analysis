@@ -1,0 +1,97 @@
+# Mathematical Discovery Neural Networks - Requirements
+
+# Core deep learning frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+pytorch-lightning>=2.0.0
+
+# JAX ecosystem for THRML integration
+jax[cpu]>=0.4.0
+jaxlib>=0.4.0
+thrml>=0.1.0                   # THRML library for Ising models and PGMs
+
+# Mathematical and scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+sympy>=1.12.0                  # Symbolic mathematics
+mpmath>=1.3.0                  # Arbitrary precision arithmetic
+
+# Machine learning utilities
+scikit-learn>=1.3.0
+optuna>=3.0.0                  # Hyperparameter optimization
+wandb>=0.15.0                  # Experiment tracking
+tensorboard>=2.13.0
+
+# Reinforcement learning
+stable-baselines3>=2.0.0
+gymnasium>=0.29.0
+pettingzoo>=1.24.0            # Multi-agent RL environments
+
+# Graph neural networks and geometric deep learning
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.0
+dgl>=1.1.0                    # Deep Graph Library
+
+# Visualization and plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+networkx>=3.1.0               # Graph visualization
+
+# Data handling and I/O
+pandas>=2.0.0
+h5py>=3.9.0
+zarr>=2.15.0                  # Array storage
+datasets>=2.14.0              # Hugging Face datasets
+
+# Numerical optimization
+cvxpy>=1.3.0                  # Convex optimization
+pyomo>=6.6.0                  # Mathematical programming
+
+# Web interface integration (for divisor-wave-nextjs integration)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+websockets>=11.0.0
+
+# Mathematical sequence and number theory
+primepy>=1.3                  # Prime number utilities
+sympy>=1.12.0
+gmpy2>=2.1.0                  # Multiple precision arithmetic
+
+# Parallel computing and performance
+numba>=0.57.0                 # JIT compilation
+joblib>=1.3.0                 # Parallel processing
+ray[tune]>=2.6.0              # Distributed computing and hyperparameter tuning
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0                 # Code formatting
+flake8>=6.0.0                 # Linting
+mypy>=1.5.0                   # Type checking
+
+# Documentation
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Integration with other divisor-wave projects
+# Note: These will be installed via relative path during setup
+# ../divisor-wave-python
+# ../divisor-wave-agent
+
+# Optional dependencies for advanced features
+cupy-cuda11x>=12.0.0          # GPU acceleration (CUDA 11.x)
+# cupy-cuda12x>=12.0.0        # GPU acceleration (CUDA 12.x) - alternative
+
+# Mathematical visualization
+manim>=0.17.0                 # Mathematical animation
+tikzplotlib>=0.10.0           # LaTeX/TikZ export
+
+# Additional neural network architectures
+transformers>=4.30.0          # Transformer models
+diffusers>=0.18.0             # Diffusion models
+einops>=0.6.0                 # Tensor operations

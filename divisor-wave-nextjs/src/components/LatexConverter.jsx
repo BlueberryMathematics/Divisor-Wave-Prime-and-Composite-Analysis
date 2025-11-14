@@ -247,7 +247,7 @@ const LatexConverter = () => {
           <li>Choose an example formula or write your own LaTeX mathematical expression</li>
           <li>Provide a unique function name (no spaces, use underscores)</li>
           <li>Add an optional description to document your function</li>
-          <li>Click "Convert to NumPy" to generate executable code</li>
+          <li>Click &quot;Convert to NumPy&quot; to generate executable code</li>
           <li>Your function is automatically saved to the local database</li>
           <li>Export your database to share with other researchers</li>
           <li>All functions integrate with the plotting system automatically</li>

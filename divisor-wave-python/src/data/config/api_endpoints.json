@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "description": "API endpoint configuration and settings",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.113225"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": false,
+    "cors_origins": [
+      "http://localhost:3000"
+    ]
+  },
+  "endpoints": {
+    "functions": "/functions",
+    "plotting": "/plot",
+    "latex": "/latex",
+    "registry": "/registry"
+  },
+  "limits": {
+    "max_plot_resolution": 500,
+    "max_computation_time": 30,
+    "max_file_size": "10MB"
+  }
+}

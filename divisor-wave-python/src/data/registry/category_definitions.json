@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "description": "Function category definitions and organization",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.107229",
+    "total_categories": 13
+  },
+  "categories": {
+    "Core Products": {
+      "description": "Functions in the Core Products category",
+      "functions": [
+        {
+          "id": "1",
+          "name": "product_of_sin",
+          "display_name": "Product of Sin"
+        },
+        {
+          "id": "2",
+          "name": "product_of_product_representation_for_sin",
+          "display_name": "Product of Product Representation for Sin"
+        }
+      ]
+    },
+    "Demonstration": {
+      "description": "Functions in the Demonstration category",
+      "functions": [
+        {
+          "id": "3",
+          "name": "complex_playground_magnification_currated_functions_DEMO",
+          "display_name": "Complex Playground Magnification Demo"
+        }
+      ]
+    },
+    "Riesz Products": {
+      "description": "Functions in the Riesz Products category",
+      "functions": [
+        {
+          "id": "4",
+          "name": "Riesz_Product_for_Cos",
+          "display_name": "Riesz Product for Cosine"
+        },
+        {
+          "id": "5",
+          "name": "Riesz_Product_for_Sin",
+          "display_name": "Riesz Product for Sine"
+        },
+        {
+          "id": "6",
+          "name": "Riesz_Product_for_Tan",
+          "display_name": "Riesz Product for Tangent"
+        },
+        {
+          "id": "25",
+          "name": "Custom_Riesz_Product_for_Tan",
+          "display_name": "Custom Riesz Product for Tangent"
+        }
+      ]
+    },
+    "Vi\u00e8te Products": {
+      "description": "Functions in the Vi\u00e8te Products category",
+      "functions": [
+        {
+          "id": "7",
+          "name": "Viete_Product_for_Cos",
+          "display_name": "Vi\u00e8te Product for Cosine"
+        },
+        {
+          "id": "8",
+          "name": "Viete_Product_for_Sin",
+          "display_name": "Vi\u00e8te Product for Sine"
+        },
+        {
+          "id": "9",
+          "name": "Viete_Product_for_Tan",
+          "display_name": "Vi\u00e8te Product for Tangent"
+        },
+        {
+          "id": "26",
+          "name": "Custom_Viete_Product_for_Cos",
+          "display_name": "Custom Vi\u00e8te Product for Cosine"
+        },
+        {
+          "id": "27",
+          "name": "Log_power_base_Viete_Product_for_Sin",
+          "display_name": "Log Power Base Vi\u00e8te Product for Sine"
+        },
+        {
+          "id": "30",
+          "name": "Half_Base_Viete_Product_for_Sin",
+          "display_name": "Half Base Vi\u00e8te Product for Sine"
+        }
+      ]
+    },
+    "Composite Functions": {
+      "description": "Functions in the Composite Functions category",
+      "functions": [
+        {
+          "id": "10",
+          "name": "cos_of_product_of_sin",
+          "display_name": "Cosine of Product of Sin"
+        },
+        {
+          "id": "11",
+          "name": "sin_of_product_of_sin",
+          "display_name": "Sine of Product of Sin"
+        },
+        {
+          "id": "12",
+          "name": "cos_of_product_of_product_representation_of_sin",
+          "display_name": "Cosine of Double Product"
+        },
+        {
+          "id": "13",
+          "name": "sin_of_product_of_product_representation_of_sin",
+          "display_name": "Sine of Double Product"
+        }
+      ]
+    },
+    "Prime Indicators": {
+      "description": "Functions in the Prime Indicators category",
+      "functions": [
+        {
+          "id": "14",
+          "name": "Binary_Output_Prime_Indicator_Function_H",
+          "display_name": "Binary Output Prime Indicator Function (H)"
+        },
+        {
+          "id": "15",
+          "name": "Prime_Output_Indicator_J",
+          "display_name": "Prime Output Indicator (J)"
+        },
+        {
+          "id": "16",
+          "name": "BOPIF_Q_Alternation_Series",
+          "display_name": "BOPIF Q Alternation Series"
+        },
+        {
+          "id": "17",
+          "name": "Dirichlet_Eta_Derived_From_BOPIF",
+          "display_name": "Dirichlet Eta from BOPIF"
+        },
+        {
+          "id": "28",
+          "name": "Riesz_Product_for_Tan_and_Prime_indicator_combination",
+          "display_name": "Riesz Tan + Prime Indicator Combination"
+        }
+      ]
+    },
+    "Basic Functions": {
+      "description": "Functions in the Basic Functions category",
+      "functions": [
+        {
+          "id": "18",
+          "name": "abs_loggamma",
+          "display_name": "Absolute Log Gamma"
+        },
+        {
+          "id": "19",
+          "name": "rational_one_plus_z_squared",
+          "display_name": "Rational 1 + z\u00b2"
+        },
+        {
+          "id": "20",
+          "name": "abs_z_to_z",
+          "display_name": "Absolute z^z"
+        },
+        {
+          "id": "21",
+          "name": "gamma_function",
+          "display_name": "Gamma Function"
+        }
+      ]
+    },
+    "Gamma Variants": {
+      "description": "Functions in the Gamma Variants category",
+      "functions": [
+        {
+          "id": "22",
+          "name": "gamma_of_product_of_product_representation_for_sin",
+          "display_name": "Gamma of Double Product"
+        },
+        {
+          "id": "24",
+          "name": "gamma_form_product_of_product_representation_for_sin",
+          "display_name": "Gamma Form Double Product"
+        }
+      ]
+    },
+    "Logarithmic Variants": {
+      "description": "Functions in the Logarithmic Variants category",
+      "functions": [
+        {
+          "id": "23",
+          "name": "natural_logarithm_of_product_of_product_representation_for_sin",
+          "display_name": "Natural Log of Double Product"
+        }
+      ]
+    },
+    "Special Functions": {
+      "description": "Functions in the Special Functions category",
+      "functions": [
+        {
+          "id": "29",
+          "name": "Nested_roots_product_for_2",
+          "display_name": "Nested Roots Product for 2"
+        }
+      ]
+    },
+    "Factory Functions": {
+      "description": "Functions in the Factory Functions category",
+      "functions": [
+        {
+          "id": "31",
+          "name": "product_factory",
+          "display_name": "Product Factory"
+        }
+      ]
+    },
+    "example": {
+      "description": "Functions in the example category",
+      "functions": [
+        {
+          "id": "custom_1",
+          "name": "riemann_zeta_style",
+          "display_name": "riemann_zeta_style"
+        },
+        {
+          "id": "custom_2",
+          "name": "exponential_spiral",
+          "display_name": "exponential_spiral"
+        },
+        {
+          "id": "custom_3",
+          "name": "custom_sine_product",
+          "display_name": "custom_sine_product"
+        },
+        {
+          "id": "custom_4",
+          "name": "riemann_zeta_style",
+          "display_name": "riemann_zeta_style"
+        },
+        {
+          "id": "custom_5",
+          "name": "exponential_spiral",
+          "display_name": "exponential_spiral"
+        },
+        {
+          "id": "custom_6",
+          "name": "custom_sine_product",
+          "display_name": "custom_sine_product"
+        }
+      ]
+    },
+    "Custom": {
+      "description": "Functions in the Custom category",
+      "functions": [
+        {
+          "id": "custom_7",
+          "name": "test_registry_function",
+          "display_name": "Test Registry Function"
+        }
+      ]
+    }
+  }
+}

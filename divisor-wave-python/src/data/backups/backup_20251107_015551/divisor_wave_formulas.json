@@ -1,0 +1,192 @@
+{
+  "formulas": {
+    "product_of_sin": {
+      "latex": "f(z) = \\left|\\prod_{k=2}^{z} \\beta \\cdot \\frac{z}{k} \\cdot \\sin\\left(\\frac{\\pi z}{k}\\right)\\right|^{-m}",
+      "description": "Product of Sin - Main divisor wave function a(z)",
+      "category": "Core Products"
+    },
+    "product_of_product_representation_for_sin": {
+      "latex": "g(z) = \\left|\\prod_{n=2}^{z} \\beta \\cdot \\frac{z}{n} \\cdot \\left(\\pi z \\cdot \\prod_{k=2}^{z} \\left(1 - \\frac{z^2}{n^2 k^2}\\right)\\right)\\right|^{-m}",
+      "description": "Product of Product Representation for Sin - Enhanced divisor wave function b(z)",
+      "category": "Core Products"
+    },
+    "complex_playground_magnification_currated_functions_DEMO": {
+      "latex": "D(z) = \\left|\\prod_{n=2}^{z} \\left(iz_{\\text{imag}} + iz_{\\text{imag}} \\sin(\\pi z n)\\right)^{iz_{\\text{imag}}}\\right|^{-m}",
+      "description": "Complex playground function with imaginary magnification",
+      "category": "Demonstration"
+    },
+    "Riesz_Product_for_Cos": {
+      "latex": "R_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\cos(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using cosine function",
+      "category": "Riesz Products"
+    },
+    "Riesz_Product_for_Sin": {
+      "latex": "R_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\sin(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using sine function",
+      "category": "Riesz Products"
+    },
+    "Riesz_Product_for_Tan": {
+      "latex": "R_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using tangent function",
+      "category": "Riesz Products"
+    },
+    "Viete_Product_for_Cos": {
+      "latex": "V_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using cosine with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "Viete_Product_for_Sin": {
+      "latex": "V_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using sine with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "Viete_Product_for_Tan": {
+      "latex": "V_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\tan\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using tangent with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "cos_of_product_of_sin": {
+      "latex": "h(z) = \\cos\\left(f(z)\\right)",
+      "description": "Cosine of the main divisor wave",
+      "category": "Composite Functions"
+    },
+    "sin_of_product_of_sin": {
+      "latex": "h(z) = \\sin\\left(f(z)\\right)",
+      "description": "Sine of the main divisor wave",
+      "category": "Composite Functions"
+    },
+    "cos_of_product_of_product_representation_of_sin": {
+      "latex": "h(z) = \\cos\\left(g(z)\\right)",
+      "description": "Cosine of the enhanced divisor wave",
+      "category": "Composite Functions"
+    },
+    "sin_of_product_of_product_representation_of_sin": {
+      "latex": "h(z) = \\sin\\left(g(z)\\right)",
+      "description": "Sine of the enhanced divisor wave",
+      "category": "Composite Functions"
+    },
+    "Binary_Output_Prime_Indicator_Function_H": {
+      "latex": "H(z) = f(z)^{g(z)}",
+      "description": "Binary output prime indicator combining divisor wave functions",
+      "category": "Prime Indicators"
+    },
+    "Prime_Output_Indicator_J": {
+      "latex": "J(z) = f(z)^{f(z)^{g(z)}}",
+      "description": "Prime output indicator with nested exponentiation",
+      "category": "Prime Indicators"
+    },
+    "BOPIF_Q_Alternation_Series": {
+      "latex": "Q(z) = \\sum_{n=2}^{z} (-1)^{H(n)} \\cdot H(n)",
+      "description": "Binary Output Prime Indicator Function Q Alternation Series",
+      "category": "Prime Indicators"
+    },
+    "Dirichlet_Eta_Derived_From_BOPIF": {
+      "latex": "\\eta(z) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} \\cdot H(n)}{n^z}",
+      "description": "Dirichlet Eta function derived from Binary Output Prime Indicator",
+      "category": "Prime Indicators"
+    },
+    "abs_loggamma": {
+      "latex": "\\left|\\log\\Gamma(z)\\right|",
+      "description": "Absolute value of log gamma function",
+      "category": "Basic Functions"
+    },
+    "rational_one_plus_z_squared": {
+      "latex": "\\frac{1}{1 + z^2}",
+      "description": "Rational function with quadratic denominator",
+      "category": "Basic Functions"
+    },
+    "abs_z_to_z": {
+      "latex": "\\left|z^z\\right|",
+      "description": "Absolute value of z to the power z",
+      "category": "Basic Functions"
+    },
+    "gamma_function": {
+      "latex": "\\Gamma(z)",
+      "description": "Gamma function",
+      "category": "Basic Functions"
+    },
+    "gamma_of_product_of_product_representation_for_sin": {
+      "latex": "\\Gamma(g(z))",
+      "description": "Gamma function applied to enhanced divisor wave",
+      "category": "Gamma Variants"
+    },
+    "natural_logarithm_of_product_of_product_representation_for_sin": {
+      "latex": "\\ln(g(z))",
+      "description": "Natural logarithm of enhanced divisor wave",
+      "category": "Logarithmic Variants"
+    },
+    "gamma_form_product_of_product_representation_for_sin": {
+      "latex": "\\Gamma(g(z))",
+      "description": "Gamma function applied to enhanced divisor wave",
+      "category": "Gamma Variants"
+    },
+    "Custom_Riesz_Product_for_Tan": {
+      "latex": "R_{\\tan}^{*}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\alpha \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Custom Riesz product with tangent and scaling parameter",
+      "category": "Riesz Products"
+    },
+    "Custom_Viete_Product_for_Cos": {
+      "latex": "V_{\\cos}^{*}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n \\alpha}\\right)\\right|^{-m}",
+      "description": "Custom Viete product with cosine and scaling parameter",
+      "category": "Vi\u00e8te Products"
+    },
+    "Log_power_base_Viete_Product_for_Sin": {
+      "latex": "V_{\\sin}^{\\log}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z \\log(n)}{2^n}\\right)\\right|^{-m}",
+      "description": "Logarithmic power base Viete product with sine",
+      "category": "Vi\u00e8te Products"
+    },
+    "Riesz_Product_for_Tan_and_Prime_indicator_combination": {
+      "latex": "R_{\\tan,H}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + H(n) \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product combining tangent with prime indicator function",
+      "category": "Prime Indicators"
+    },
+    "Nested_roots_product_for_2": {
+      "latex": "N_2(z) = \\left|\\prod_{n=2}^{z} \\sqrt[n]{2z}\\right|^{-m}",
+      "description": "Nested roots product for base 2",
+      "category": "Special Functions"
+    },
+    "Half_Base_Viete_Product_for_Sin": {
+      "latex": "V_{1/2}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^{-n}}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using sine with negative powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "product_factory": {
+      "latex": "P_{\\text{factory}}(z) = \\left|\\prod_{n=2}^{z} \\left[\\pi z \\prod_{k=2}^{z} \\left(1 - \\frac{z^2}{k^2 n^2}\\right)\\right]\\right|^{-m}",
+      "description": "Product factory function with nested infinite products",
+      "category": "Factory Functions"
+    },
+    "riemann_zeta_style": {
+      "latex": "\\sum_{n=1}^{\\infty} \\frac{1}{n^z}",
+      "description": "Riemann zeta function style series",
+      "category": "example"
+    },
+    "exponential_spiral": {
+      "latex": "e^{i z \\theta}",
+      "description": "Complex exponential spiral",
+      "category": "example"
+    },
+    "custom_sine_product": {
+      "latex": "\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{n}\\right)",
+      "description": "Custom sine product similar to the main product",
+      "category": "example"
+    }
+  },
+  "normalization_info": {
+    "N": "No gamma normalization",
+    "Y": "With gamma normalization: result / \u0393(result)",
+    "X": "Real axis normalization",
+    "Z": "Imaginary axis normalization",
+    "XYZ": "Combined axis normalization"
+  },
+  "coefficient_explanation": {
+    "m": "Exponential magnification coefficient",
+    "beta": "Lead scaling coefficient",
+    "description": "Coefficients may vary based on normalization type (N vs Y)"
+  },
+  "metadata": {
+    "version": "1.1",
+    "updated": "2025-11-06T18:01:35.434269",
+    "description": "LaTeX formulas for all divisor wave functions from Leo J. Borcherding's research",
+    "total_formulas": 31
+  }
+}

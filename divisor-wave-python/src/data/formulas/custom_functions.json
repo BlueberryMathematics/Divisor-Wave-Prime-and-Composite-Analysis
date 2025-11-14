@@ -1,0 +1,109 @@
+{
+  "functions": {
+    "riemann_zeta_style": {
+      "id": "custom_8",
+      "name": "riemann_zeta_style",
+      "display_name": "riemann_zeta_style",
+      "description": "Riemann zeta function style series",
+      "category": "example",
+      "latex_formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^z}",
+      "python_implementation": "riemann_zeta_style",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-12T17:07:50.918438",
+      "updated_at": "2025-11-12T17:07:50.918438",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "c9e05fe1"
+    },
+    "exponential_spiral": {
+      "id": "custom_9",
+      "name": "exponential_spiral",
+      "display_name": "exponential_spiral",
+      "description": "Complex exponential spiral",
+      "category": "example",
+      "latex_formula": "e^{i z \\theta}",
+      "python_implementation": "exponential_spiral",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-12T17:07:50.918438",
+      "updated_at": "2025-11-12T17:07:50.918438",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "390e423e"
+    },
+    "custom_sine_product": {
+      "id": "custom_10",
+      "name": "custom_sine_product",
+      "display_name": "custom_sine_product",
+      "description": "Custom sine product similar to the main product",
+      "category": "example",
+      "latex_formula": "\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{n}\\right)",
+      "python_implementation": "custom_sine_product",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-12T17:07:50.918438",
+      "updated_at": "2025-11-12T17:07:50.918438",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "b94bfb5a"
+    },
+    "test_registry_function": {
+      "id": "custom_11",
+      "name": "test_registry_function",
+      "display_name": "test_registry_function",
+      "description": "Registry test function combining gamma and sine",
+      "category": "Custom",
+      "latex_formula": "\\gamma(z) + \\sin(\\pi z)",
+      "python_implementation": "test_registry_function",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-12T17:07:50.918438",
+      "updated_at": "2025-11-12T17:07:50.918438",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "b3f7fb0d"
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "count": 4,
+    "updated": "2025-11-12T17:07:50.921442"
+  }
+}

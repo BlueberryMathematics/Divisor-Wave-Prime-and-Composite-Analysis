@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "description": "Riesz product family functions",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.099707",
+    "source": "reorganized_from_divisor_wave_formulas.json",
+    "count": 5
+  },
+  "formulas": {
+    "Riesz_Product_for_Cos": {
+      "latex": "R_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\cos(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using cosine function",
+      "category": "Riesz Products"
+    },
+    "Riesz_Product_for_Sin": {
+      "latex": "R_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\sin(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using sine function",
+      "category": "Riesz Products"
+    },
+    "Riesz_Product_for_Tan": {
+      "latex": "R_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product using tangent function",
+      "category": "Riesz Products"
+    },
+    "Custom_Riesz_Product_for_Tan": {
+      "latex": "R_{\\tan}^{*}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\alpha \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Custom Riesz product with tangent and scaling parameter",
+      "category": "Riesz Products"
+    },
+    "Riesz_Product_for_Tan_and_Prime_indicator_combination": {
+      "latex": "R_{\\tan,H}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + H(n) \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "description": "Riesz product combining tangent with prime indicator function",
+      "category": "Prime Indicators"
+    }
+  },
+  "normalization_info": {
+    "N": "No gamma normalization",
+    "Y": "With gamma normalization: result / \u0393(result)",
+    "X": "Real axis normalization",
+    "Z": "Imaginary axis normalization",
+    "XYZ": "Combined axis normalization"
+  },
+  "coefficient_explanation": {
+    "m": "Exponential magnification coefficient",
+    "beta": "Lead scaling coefficient",
+    "description": "Coefficients may vary based on normalization type (N vs Y)"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "description": "Vi\u00e8te product family functions",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.100712",
+    "source": "reorganized_from_divisor_wave_formulas.json",
+    "count": 6
+  },
+  "formulas": {
+    "Viete_Product_for_Cos": {
+      "latex": "V_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using cosine with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "Viete_Product_for_Sin": {
+      "latex": "V_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using sine with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "Viete_Product_for_Tan": {
+      "latex": "V_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\tan\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using tangent with powers of 2",
+      "category": "Vi\u00e8te Products"
+    },
+    "Custom_Viete_Product_for_Cos": {
+      "latex": "V_{\\cos}^{*}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n \\alpha}\\right)\\right|^{-m}",
+      "description": "Custom Viete product with cosine and scaling parameter",
+      "category": "Vi\u00e8te Products"
+    },
+    "Log_power_base_Viete_Product_for_Sin": {
+      "latex": "V_{\\sin}^{\\log}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z \\log(n)}{2^n}\\right)\\right|^{-m}",
+      "description": "Logarithmic power base Viete product with sine",
+      "category": "Vi\u00e8te Products"
+    },
+    "Half_Base_Viete_Product_for_Sin": {
+      "latex": "V_{1/2}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^{-n}}\\right)\\right|^{-m}",
+      "description": "Vi\u00c3\u00a8te product using sine with negative powers of 2",
+      "category": "Vi\u00e8te Products"
+    }
+  },
+  "normalization_info": {
+    "N": "No gamma normalization",
+    "Y": "With gamma normalization: result / \u0393(result)",
+    "X": "Real axis normalization",
+    "Z": "Imaginary axis normalization",
+    "XYZ": "Combined axis normalization"
+  },
+  "coefficient_explanation": {
+    "m": "Exponential magnification coefficient",
+    "beta": "Lead scaling coefficient",
+    "description": "Coefficients may vary based on normalization type (N vs Y)"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "description": "Available normalization modes for mathematical functions",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.109227"
+  },
+  "modes": {
+    "N": {
+      "name": "None",
+      "description": "No normalization applied",
+      "default": true
+    },
+    "Y": {
+      "name": "Y-axis normalization",
+      "description": "Normalize along Y-axis"
+    },
+    "X": {
+      "name": "X-axis normalization",
+      "description": "Normalize along X-axis"
+    },
+    "Z": {
+      "name": "Z-axis normalization",
+      "description": "Normalize along Z-axis"
+    },
+    "XYZ": {
+      "name": "Combined normalization",
+      "description": "Normalize across all axes"
+    }
+  }
+}

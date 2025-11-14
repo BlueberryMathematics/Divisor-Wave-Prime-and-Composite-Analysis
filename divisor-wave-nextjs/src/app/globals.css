@@ -24,3 +24,44 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* KaTeX dark theme customization */
+.katex {
+  color: #ffffff !important;
+  font-size: 1.1em !important;
+}
+
+.katex .base {
+  color: #ffffff !important;
+}
+
+.katex .mord, 
+.katex .mop, 
+.katex .mbin, 
+.katex .mrel, 
+.katex .mopen, 
+.katex .mclose, 
+.katex .mpunct {
+  color: #ffffff !important;
+}
+
+/* Style specific mathematical elements */
+.katex .mord.mathdefault {
+  color: #60a5fa !important; /* Blue for variables */
+}
+
+.katex .mop {
+  color: #34d399 !important; /* Green for operators */
+}
+
+.katex .mbin {
+  color: #fbbf24 !important; /* Yellow for binary operators */
+}
+
+.katex .mrel {
+  color: #f87171 !important; /* Red for relations */
+}
+
+.katex .mathbb {
+  color: #a78bfa !important; /* Purple for special sets */
+}

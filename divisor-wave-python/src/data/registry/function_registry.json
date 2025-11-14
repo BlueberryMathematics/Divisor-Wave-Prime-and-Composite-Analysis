@@ -1,0 +1,1108 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-11-06T20:17:27.151584",
+    "total_functions": 38
+  },
+  "functions": {
+    "1": {
+      "id": "1",
+      "name": "product_of_sin",
+      "display_name": "Product of Sin",
+      "description": "Product of Sin - Main divisor wave function a(z)",
+      "category": "Core Products",
+      "latex_formula": "f(z) = \\left|\\prod_{k=2}^{z} \\beta \\cdot \\frac{z}{k} \\cdot \\sin\\left(\\frac{\\pi z}{k}\\right)\\right|^{-m}",
+      "python_implementation": "product_of_sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "core",
+        "infinite-product",
+        "prime-analysis"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "Leo J. Borcherding",
+      "source": "builtin",
+      "hash": "14e7713f"
+    },
+    "2": {
+      "id": "2",
+      "name": "product_of_product_representation_for_sin",
+      "display_name": "Product of Product Representation for Sin",
+      "description": "Product of Product Representation for Sin - Enhanced divisor wave function b(z)",
+      "category": "Core Products",
+      "latex_formula": "g(z) = \\left|\\prod_{n=2}^{z} \\beta \\cdot \\frac{z}{n} \\cdot \\left(\\pi z \\cdot \\prod_{k=2}^{z} \\left(1 - \\frac{z^2}{n^2 k^2}\\right)\\right)\\right|^{-m}",
+      "python_implementation": "product_of_product_representation_for_sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "core",
+        "double-product",
+        "prime-analysis"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "Leo J. Borcherding",
+      "source": "builtin",
+      "hash": "8e6dac21"
+    },
+    "3": {
+      "id": "3",
+      "name": "complex_playground_magnification_currated_functions_DEMO",
+      "display_name": "Complex Playground Magnification Demo",
+      "description": "Complex playground function with imaginary magnification",
+      "category": "Demonstration",
+      "latex_formula": "D(z) = \\left|\\prod_{n=2}^{z} \\left(iz_{\\text{imag}} + iz_{\\text{imag}} \\sin(\\pi z n)\\right)^{iz_{\\text{imag}}}\\right|^{-m}",
+      "python_implementation": "complex_playground_magnification_currated_functions_DEMO",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "demo",
+        "complex-analysis"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "Leo J. Borcherding",
+      "source": "builtin",
+      "hash": "6183c880"
+    },
+    "4": {
+      "id": "4",
+      "name": "Riesz_Product_for_Cos",
+      "display_name": "Riesz Product for Cosine",
+      "description": "Riesz product using cosine function",
+      "category": "Riesz Products",
+      "latex_formula": "R_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\cos(\\pi z n)\\right)\\right|^{-m}",
+      "python_implementation": "Riesz_Product_for_Cos",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "riesz",
+        "cosine",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "127f1344"
+    },
+    "5": {
+      "id": "5",
+      "name": "Riesz_Product_for_Sin",
+      "display_name": "Riesz Product for Sine",
+      "description": "Riesz product using sine function",
+      "category": "Riesz Products",
+      "latex_formula": "R_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\sin(\\pi z n)\\right)\\right|^{-m}",
+      "python_implementation": "Riesz_Product_for_Sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "riesz",
+        "sine",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "a94d3bf5"
+    },
+    "6": {
+      "id": "6",
+      "name": "Riesz_Product_for_Tan",
+      "display_name": "Riesz Product for Tangent",
+      "description": "Riesz product using tangent function",
+      "category": "Riesz Products",
+      "latex_formula": "R_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "python_implementation": "Riesz_Product_for_Tan",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "riesz",
+        "tangent",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "59f32094"
+    },
+    "7": {
+      "id": "7",
+      "name": "Viete_Product_for_Cos",
+      "display_name": "Vi\u00e8te Product for Cosine",
+      "description": "Vi\u00c3\u00a8te product using cosine with powers of 2",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{\\cos}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "python_implementation": "Viete_Product_for_Cos",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "cosine",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "709e4012"
+    },
+    "8": {
+      "id": "8",
+      "name": "Viete_Product_for_Sin",
+      "display_name": "Vi\u00e8te Product for Sine",
+      "description": "Vi\u00c3\u00a8te product using sine with powers of 2",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{\\sin}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "python_implementation": "Viete_Product_for_Sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "sine",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "e7059ac7"
+    },
+    "9": {
+      "id": "9",
+      "name": "Viete_Product_for_Tan",
+      "display_name": "Vi\u00e8te Product for Tangent",
+      "description": "Vi\u00c3\u00a8te product using tangent with powers of 2",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{\\tan}(z) = \\left|\\prod_{n=2}^{z} \\tan\\left(\\frac{\\pi z}{2^n}\\right)\\right|^{-m}",
+      "python_implementation": "Viete_Product_for_Tan",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "tangent",
+        "infinite-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "b5c3a4ab"
+    },
+    "10": {
+      "id": "10",
+      "name": "cos_of_product_of_sin",
+      "display_name": "Cosine of Product of Sin",
+      "description": "Cosine of the main divisor wave",
+      "category": "Composite Functions",
+      "latex_formula": "h(z) = \\cos\\left(f(z)\\right)",
+      "python_implementation": "cos_of_product_of_sin",
+      "dependencies": [
+        "product_of_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "composite",
+        "cosine",
+        "derived"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "ddb3726d"
+    },
+    "11": {
+      "id": "11",
+      "name": "sin_of_product_of_sin",
+      "display_name": "Sine of Product of Sin",
+      "description": "Sine of the main divisor wave",
+      "category": "Composite Functions",
+      "latex_formula": "h(z) = \\sin\\left(f(z)\\right)",
+      "python_implementation": "sin_of_product_of_sin",
+      "dependencies": [
+        "product_of_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "composite",
+        "sine",
+        "derived"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "61e68763"
+    },
+    "12": {
+      "id": "12",
+      "name": "cos_of_product_of_product_representation_of_sin",
+      "display_name": "Cosine of Double Product",
+      "description": "Cosine of the enhanced divisor wave",
+      "category": "Composite Functions",
+      "latex_formula": "h(z) = \\cos\\left(g(z)\\right)",
+      "python_implementation": "cos_of_product_of_product_representation_of_sin",
+      "dependencies": [
+        "product_of_product_representation_for_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "composite",
+        "cosine",
+        "double-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "a7363961"
+    },
+    "13": {
+      "id": "13",
+      "name": "sin_of_product_of_product_representation_of_sin",
+      "display_name": "Sine of Double Product",
+      "description": "Sine of the enhanced divisor wave",
+      "category": "Composite Functions",
+      "latex_formula": "h(z) = \\sin\\left(g(z)\\right)",
+      "python_implementation": "sin_of_product_of_product_representation_of_sin",
+      "dependencies": [
+        "product_of_product_representation_for_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "composite",
+        "sine",
+        "double-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "0f3c0aff"
+    },
+    "14": {
+      "id": "14",
+      "name": "Binary_Output_Prime_Indicator_Function_H",
+      "display_name": "Binary Output Prime Indicator Function (H)",
+      "description": "Binary output prime indicator combining divisor wave functions",
+      "category": "Prime Indicators",
+      "latex_formula": "H(z) = f(z)^{g(z)}",
+      "python_implementation": "Binary_Output_Prime_Indicator_Function_H",
+      "dependencies": [
+        "product_of_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "prime",
+        "indicator",
+        "binary"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "e5d62aad"
+    },
+    "15": {
+      "id": "15",
+      "name": "Prime_Output_Indicator_J",
+      "display_name": "Prime Output Indicator (J)",
+      "description": "Prime output indicator with nested exponentiation",
+      "category": "Prime Indicators",
+      "latex_formula": "J(z) = f(z)^{f(z)^{g(z)}}",
+      "python_implementation": "Prime_Output_Indicator_J",
+      "dependencies": [
+        "Binary_Output_Prime_Indicator_Function_H"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "prime",
+        "indicator",
+        "detection"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "1da5cb25"
+    },
+    "16": {
+      "id": "16",
+      "name": "BOPIF_Q_Alternation_Series",
+      "display_name": "BOPIF Q Alternation Series",
+      "description": "Binary Output Prime Indicator Function Q Alternation Series",
+      "category": "Prime Indicators",
+      "latex_formula": "Q(z) = \\sum_{n=2}^{z} (-1)^{H(n)} \\cdot H(n)",
+      "python_implementation": "BOPIF_Q_Alternation_Series",
+      "dependencies": [
+        "Binary_Output_Prime_Indicator_Function_H"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "prime",
+        "series",
+        "alternating"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "56a1e4f3"
+    },
+    "17": {
+      "id": "17",
+      "name": "Dirichlet_Eta_Derived_From_BOPIF",
+      "display_name": "Dirichlet Eta from BOPIF",
+      "description": "Dirichlet Eta function derived from Binary Output Prime Indicator",
+      "category": "Prime Indicators",
+      "latex_formula": "\\eta(z) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} \\cdot H(n)}{n^z}",
+      "python_implementation": "Dirichlet_Eta_Derived_From_BOPIF",
+      "dependencies": [
+        "Binary_Output_Prime_Indicator_Function_H"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "dirichlet",
+        "eta",
+        "prime",
+        "derived"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "aad45b6d"
+    },
+    "18": {
+      "id": "18",
+      "name": "abs_loggamma",
+      "display_name": "Absolute Log Gamma",
+      "description": "Absolute value of log gamma function",
+      "category": "Basic Functions",
+      "latex_formula": "\\left|\\log\\Gamma(z)\\right|",
+      "python_implementation": "abs_loggamma",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "gamma",
+        "logarithm",
+        "basic"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "c5f8d666"
+    },
+    "19": {
+      "id": "19",
+      "name": "rational_one_plus_z_squared",
+      "display_name": "Rational 1 + z\u00b2",
+      "description": "Rational function with quadratic denominator",
+      "category": "Basic Functions",
+      "latex_formula": "\\frac{1}{1 + z^2}",
+      "python_implementation": "rational_one_plus_z_squared",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "rational",
+        "basic"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "463b973e"
+    },
+    "20": {
+      "id": "20",
+      "name": "abs_z_to_z",
+      "display_name": "Absolute z^z",
+      "description": "Absolute value of z to the power z",
+      "category": "Basic Functions",
+      "latex_formula": "\\left|z^z\\right|",
+      "python_implementation": "abs_z_to_z",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "power",
+        "basic"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "f148cc6c"
+    },
+    "21": {
+      "id": "21",
+      "name": "gamma_function",
+      "display_name": "Gamma Function",
+      "description": "Gamma function",
+      "category": "Basic Functions",
+      "latex_formula": "\\Gamma(z)",
+      "python_implementation": "gamma_function",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "gamma",
+        "special",
+        "basic"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "df309599"
+    },
+    "22": {
+      "id": "22",
+      "name": "gamma_of_product_of_product_representation_for_sin",
+      "display_name": "Gamma of Double Product",
+      "description": "Gamma function applied to enhanced divisor wave",
+      "category": "Gamma Variants",
+      "latex_formula": "\\Gamma(g(z))",
+      "python_implementation": "gamma_of_product_of_product_representation_for_sin",
+      "dependencies": [
+        "product_of_product_representation_for_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "gamma",
+        "composite",
+        "double-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "f8c9703b"
+    },
+    "23": {
+      "id": "23",
+      "name": "natural_logarithm_of_product_of_product_representation_for_sin",
+      "display_name": "Natural Log of Double Product",
+      "description": "Natural logarithm of enhanced divisor wave",
+      "category": "Logarithmic Variants",
+      "latex_formula": "\\ln(g(z))",
+      "python_implementation": "natural_logarithm_of_product_of_product_representation_for_sin",
+      "dependencies": [
+        "product_of_product_representation_for_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "logarithm",
+        "composite",
+        "double-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "8fb8fb11"
+    },
+    "24": {
+      "id": "24",
+      "name": "gamma_form_product_of_product_representation_for_sin",
+      "display_name": "Gamma Form Double Product",
+      "description": "Gamma function applied to enhanced divisor wave",
+      "category": "Gamma Variants",
+      "latex_formula": "\\Gamma(g(z))",
+      "python_implementation": "gamma_form_product_of_product_representation_for_sin",
+      "dependencies": [
+        "product_of_product_representation_for_sin"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "gamma",
+        "form",
+        "double-product"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "537ef65b"
+    },
+    "25": {
+      "id": "25",
+      "name": "Custom_Riesz_Product_for_Tan",
+      "display_name": "Custom Riesz Product for Tangent",
+      "description": "Custom Riesz product with tangent and scaling parameter",
+      "category": "Riesz Products",
+      "latex_formula": "R_{\\tan}^{*}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + \\alpha \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "python_implementation": "Custom_Riesz_Product_for_Tan",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "riesz",
+        "tangent",
+        "custom"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "dab7c6ec"
+    },
+    "26": {
+      "id": "26",
+      "name": "Custom_Viete_Product_for_Cos",
+      "display_name": "Custom Vi\u00e8te Product for Cosine",
+      "description": "Custom Viete product with cosine and scaling parameter",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{\\cos}^{*}(z) = \\left|\\prod_{n=2}^{z} \\cos\\left(\\frac{\\pi z}{2^n \\alpha}\\right)\\right|^{-m}",
+      "python_implementation": "Custom_Viete_Product_for_Cos",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "cosine",
+        "custom"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "1520c02c"
+    },
+    "27": {
+      "id": "27",
+      "name": "Log_power_base_Viete_Product_for_Sin",
+      "display_name": "Log Power Base Vi\u00e8te Product for Sine",
+      "description": "Logarithmic power base Viete product with sine",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{\\sin}^{\\log}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z \\log(n)}{2^n}\\right)\\right|^{-m}",
+      "python_implementation": "Log_power_base_Viete_Product_for_Sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "sine",
+        "logarithm",
+        "power"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "4d7b3a4c"
+    },
+    "28": {
+      "id": "28",
+      "name": "Riesz_Product_for_Tan_and_Prime_indicator_combination",
+      "display_name": "Riesz Tan + Prime Indicator Combination",
+      "description": "Riesz product combining tangent with prime indicator function",
+      "category": "Prime Indicators",
+      "latex_formula": "R_{\\tan,H}(z) = \\left|\\prod_{n=2}^{z} \\left(1 + H(n) \\tan(\\pi z n)\\right)\\right|^{-m}",
+      "python_implementation": "Riesz_Product_for_Tan_and_Prime_indicator_combination",
+      "dependencies": [
+        "Binary_Output_Prime_Indicator_Function_H"
+      ],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "riesz",
+        "prime",
+        "indicator",
+        "combination"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "e866e09b"
+    },
+    "29": {
+      "id": "29",
+      "name": "Nested_roots_product_for_2",
+      "display_name": "Nested Roots Product for 2",
+      "description": "Nested roots product for base 2",
+      "category": "Special Functions",
+      "latex_formula": "N_2(z) = \\left|\\prod_{n=2}^{z} \\sqrt[n]{2z}\\right|^{-m}",
+      "python_implementation": "Nested_roots_product_for_2",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "nested",
+        "roots",
+        "constant",
+        "special"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "9caf3540"
+    },
+    "30": {
+      "id": "30",
+      "name": "Half_Base_Viete_Product_for_Sin",
+      "display_name": "Half Base Vi\u00e8te Product for Sine",
+      "description": "Vi\u00c3\u00a8te product using sine with negative powers of 2",
+      "category": "Vi\u00e8te Products",
+      "latex_formula": "V_{1/2}(z) = \\left|\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{2^{-n}}\\right)\\right|^{-m}",
+      "python_implementation": "Half_Base_Viete_Product_for_Sin",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "viete",
+        "sine",
+        "half-base"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "bebd4734"
+    },
+    "31": {
+      "id": "31",
+      "name": "product_factory",
+      "display_name": "Product Factory",
+      "description": "Product factory function with nested infinite products",
+      "category": "Factory Functions",
+      "latex_formula": "P_{\\text{factory}}(z) = \\left|\\prod_{n=2}^{z} \\left[\\pi z \\prod_{k=2}^{z} \\left(1 - \\frac{z^2}{k^2 n^2}\\right)\\right]\\right|^{-m}",
+      "python_implementation": "product_factory",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [
+        "factory",
+        "generator",
+        "utility"
+      ],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "builtin",
+      "hash": "e9c9b21d"
+    },
+    "custom_1": {
+      "id": "custom_1",
+      "name": "riemann_zeta_style",
+      "display_name": "riemann_zeta_style",
+      "description": "Riemann zeta function style series",
+      "category": "example",
+      "latex_formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^z}",
+      "python_implementation": "\ndef custom_function(z, normalize_type='N'):\n    import numpy as np\n    import math\n    import cmath\n    import scipy.special\n    \n    z_real = np.real(z)\n    z_imag = np.imag(z)\n    \n    try:\n        result = np.sin(math.pi*z)\n        \n        if normalize_type == 'Y':\n            result = result / scipy.special.gamma(result) if abs(result) < 100 else result\n        \n        return abs(result) if np.isfinite(result) else 0.0\n    except:\n        return 0.0\n",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T18:01:35.433263",
+      "updated_at": "2025-11-06T18:01:35.433263",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "7ac54271"
+    },
+    "custom_2": {
+      "id": "custom_2",
+      "name": "exponential_spiral",
+      "display_name": "exponential_spiral",
+      "description": "Complex exponential spiral",
+      "category": "example",
+      "latex_formula": "e^{i z \\theta}",
+      "python_implementation": "\ndef custom_function(z, normalize_type='N'):\n    import numpy as np\n    import math\n    import cmath\n    import scipy.special\n    \n    z_real = np.real(z)\n    z_imag = np.imag(z)\n    \n    try:\n        result = np.sin(math.pi*z)\n        \n        if normalize_type == 'Y':\n            result = result / scipy.special.gamma(result) if abs(result) < 100 else result\n        \n        return abs(result) if np.isfinite(result) else 0.0\n    except:\n        return 0.0\n",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T18:01:35.433263",
+      "updated_at": "2025-11-06T18:01:35.433263",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "37973551"
+    },
+    "custom_3": {
+      "id": "custom_3",
+      "name": "custom_sine_product",
+      "display_name": "custom_sine_product",
+      "description": "Custom sine product similar to the main product",
+      "category": "example",
+      "latex_formula": "\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{n}\\right)",
+      "python_implementation": "\ndef custom_function(z, normalize_type='N'):\n    import numpy as np\n    import math\n    import cmath\n    import scipy.special\n    \n    z_real = np.real(z)\n    z_imag = np.imag(z)\n    \n    try:\n        result = np.sin(math.pi*z)\n        \n        if normalize_type == 'Y':\n            result = result / scipy.special.gamma(result) if abs(result) < 100 else result\n        \n        return abs(result) if np.isfinite(result) else 0.0\n    except:\n        return 0.0\n",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T18:01:35.433263",
+      "updated_at": "2025-11-06T18:01:35.433263",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "c431efaf"
+    },
+    "custom_4": {
+      "id": "custom_4",
+      "name": "riemann_zeta_style",
+      "display_name": "riemann_zeta_style",
+      "description": "Riemann zeta function style series",
+      "category": "example",
+      "latex_formula": "\\sum_{n=1}^{\\infty} \\frac{1}{n^z}",
+      "python_implementation": "riemann_zeta_style",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "c9e05fe1"
+    },
+    "custom_5": {
+      "id": "custom_5",
+      "name": "exponential_spiral",
+      "display_name": "exponential_spiral",
+      "description": "Complex exponential spiral",
+      "category": "example",
+      "latex_formula": "e^{i z \\theta}",
+      "python_implementation": "exponential_spiral",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "390e423e"
+    },
+    "custom_6": {
+      "id": "custom_6",
+      "name": "custom_sine_product",
+      "display_name": "custom_sine_product",
+      "description": "Custom sine product similar to the main product",
+      "category": "example",
+      "latex_formula": "\\prod_{n=2}^{z} \\sin\\left(\\frac{\\pi z}{n}\\right)",
+      "python_implementation": "custom_sine_product",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "System",
+      "source": "custom",
+      "hash": "b94bfb5a"
+    },
+    "custom_7": {
+      "id": "custom_7",
+      "name": "test_registry_function",
+      "display_name": "Test Registry Function",
+      "description": "Registry test function combining gamma and sine",
+      "category": "Custom",
+      "latex_formula": "\\gamma(z) + \\sin(\\pi z)",
+      "python_implementation": "test_registry_function",
+      "dependencies": [],
+      "parameters": {},
+      "normalization_modes": [
+        "N",
+        "Y",
+        "X",
+        "Z",
+        "XYZ"
+      ],
+      "tags": [],
+      "created_at": "2025-11-06T20:17:27.151584",
+      "updated_at": "2025-11-06T20:17:27.151584",
+      "version": "1.0.0",
+      "author": "User",
+      "source": "custom",
+      "hash": "b3f7fb0d"
+    }
+  }
+}

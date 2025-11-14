@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "description": "System-wide settings and preferences",
+    "version": "1.0",
+    "created": "2025-11-07T01:57:07.114227"
+  },
+  "performance": {
+    "enable_jit": true,
+    "enable_gpu": true,
+    "max_workers": 4,
+    "cache_results": true
+  },
+  "data_paths": {
+    "formulas_dir": "data/formulas",
+    "registry_dir": "data/registry",
+    "cache_dir": "data/cache",
+    "backups_dir": "data/backups",
+    "exports_dir": "data/exports"
+  },
+  "ai_discovery": {
+    "enabled": true,
+    "max_generations_per_session": 100,
+    "evaluation_threshold": 0.7,
+    "auto_save_interesting": true
+  }
+}

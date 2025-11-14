@@ -1,0 +1,147 @@
+# Complete Configuration for Divisor Wave Neural Networks
+# =====================================================
+
+# Data Configuration
+data:
+  sequence_type: "tetrahedral"  # tetrahedral, fibonacci, prime, A287324, mixed
+  sequence_length: 1000
+  train_split: 0.8
+  validation_split: 0.2
+  normalize: true
+  augmentation: false
+
+# Model Configuration  
+model:
+  architecture: "tetrahedral"  # tetrahedral, geometric, A287324, ising, crystal_embedding, custom
+  input_dim: 50
+  hidden_dim: 256
+  output_dim: 10
+  num_layers: 4
+  dropout: 0.1
+  activation: "gelu"
+  
+  # Architecture-specific parameters
+  tetrahedral_params:
+    max_degree: 10
+    scaling_factor: 1.0
+    
+  geometric_params:
+    ratio: 1.618  # Golden ratio
+    series_length: 20
+    
+  ising_params:
+    lattice_size: 16
+    temperature: 2.269  # Critical temperature
+    coupling_strength: 1.0
+    
+  crystal_params:
+    crystal_type: "icosahedral"
+    embedding_dim: 128
+    symmetry_groups: ["rotation", "reflection"]
+    
+  custom_config:
+    layers:
+      - type: "mathematical"
+        function: "tetrahedral"
+        params: {scaling: 1.0}
+      - type: "activation"
+        function: "mathematical_gelu"
+      - type: "crystal_projection"
+        crystal_type: "tetrahedral"
+
+# Training Configuration
+training:
+  num_epochs: 500
+  batch_size: 64
+  
+  # Optimizer settings
+  optimizer:
+    type: "mathematical_adam"  # adam, sgd, mathematical_adam, adaptive
+    learning_rate: 0.001
+    params:
+      sequence_decay: 0.99
+      weight_decay: 1e-5
+      
+  # Learning rate scheduler
+  scheduler:
+    type: "fibonacci"  # prime, fibonacci, tetrahedral, riemann, step, cosine
+    params:
+      scale_factor: 0.01
+      
+  # Loss function
+  loss:
+    type: "sequence"  # sequence, riemann, prime, divisor_wave, crystal, contrastive
+    params:
+      reduction: "mean"
+      
+  # Training parameters
+  gradient_clipping: true
+  gradient_clip_value: 1.0
+  early_stopping: true
+  early_stopping_patience: 25
+  log_interval: 50
+  save_interval: 100
+  
+  # Directories
+  save_dir: "models"
+  log_dir: "logs"
+  checkpoint_dir: "checkpoints"
+
+# Mathematical Discovery Configuration
+discovery:
+  enable_deep_discovery: true
+  enable_reinforcement_discovery: true
+  
+  deep_discovery:
+    search_space: "infinite_products"
+    max_iterations: 1000
+    convergence_threshold: 1e-8
+    
+  reinforcement_discovery:
+    algorithm: "ppo"  # ppo, dqn, a3c
+    episodes: 10000
+    reward_function: "mathematical_novelty"
+
+# THRML Integration
+thrml:
+  enable: true
+  ising_chains: true
+  energy_models: true
+  lattice_types: ["square", "triangular", "hexagonal"]
+  
+# Integration with Divisor Wave Python
+integration:
+  divisor_wave_python_path: "../divisor-wave-python"
+  auto_load_functions: true
+  cache_evaluations: true
+  parallel_evaluation: true
+
+# Visualization
+visualization:
+  enable_plots: true
+  plot_frequency: 100
+  save_plots: true
+  plot_types: ["loss_curves", "sequence_predictions", "architecture_diagram"]
+  
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "training.log"
+  console: true
+
+# Hardware
+hardware:
+  device: "auto"  # auto, cpu, cuda, mps
+  mixed_precision: true
+  compile_model: false  # PyTorch 2.0 compilation
+  
+# Reproducibility
+seed: 42
+deterministic: true
+
+# Experimental Features
+experimental:
+  quantum_layers: false
+  symbolic_regression: false
+  meta_learning: false

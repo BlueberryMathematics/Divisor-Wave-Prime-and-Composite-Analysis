@@ -1,14 +1,14 @@
-# Divisor Wave Prime Complex Analysis
+# Divisor Wave Product Prime Complex Analysis
 
 ## 🌊 Mathematical Research Platform for Prime Number Theory
 
-This repository contains Leo Borcherding's revolutionary research on divisor wave functions and their connection to prime number patterns through infinite product representations. The platform provides both theoretical foundations and practical computational tools for exploring these mathematical relationships.
+This repository contains revolutionary research on divisor wave product functions and their connection to prime number patterns through infinite product and infinite sum representations. The platform provides both theoretical foundations and practical computational tools for exploring these mathematical relationships.
 
-## 📊 What is Divisor Wave Prime Complex Analysis?
+## 📊 What is Divisor Wave Product Prime Complex Analysis?
 
-These waveforms breakdown the structure of prime numbers and represent them in a new light. The Divisor Wave Prime Complex Analysis plotting software is an infinite domain which I have defined for researching these special functions. 
+These waveforms breakdown the structure of prime numbers and represent them in a new light. The Divisor Wave Prime Complex Analysis plotting software is an infinite domain which has been defined for researching these special functions. 
 
-Ultimately this software contains infinitely many functions which I have not gotten the opportunity to explore, and because of this I invite you to join me in transversing the complex plane for discrete product series, and their relationship to primes, chaos, order, and mathematics.
+Ultimately this software contains infinitely many functions which that have not gotten the opportunity to be explored. Start transversing the complex plane for new discrete product series, and their relationship to primes, chaos, order, and mathematics. Feel free to write a paper about it and reference this software and my paper in your work.
 
 ## 🚀 Quick Start Guide
 

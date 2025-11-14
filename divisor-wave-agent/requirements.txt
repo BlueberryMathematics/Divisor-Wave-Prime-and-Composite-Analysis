@@ -1,0 +1,24 @@
+# AI Agent Requirements for Divisor Wave Mathematical Research
+# LlamaIndex AI Framework
+llama-index==0.14.7
+llama-index-llms-openai
+llama-index-llms-anthropic
+llama-index-llms-ollama
+llama-index-embeddings-openai
+llama-index-vector-stores-chroma
+
+# Core dependencies
+numpy
+pandas
+matplotlib
+scipy
+sympy
+
+# Optional: Local LLM support
+torch
+transformers
+
+# Development tools
+pytest
+black
+flake8
