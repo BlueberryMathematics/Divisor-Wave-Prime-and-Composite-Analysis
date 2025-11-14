@@ -90,5 +90,55 @@ dist/
 # graphs/**/*.jpg
 # graphs/**/*.jpeg
 
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package lock files (optional - some teams prefer to track these)
+package-lock.json
+yarn.lock
+poetry.lock
+Pipfile.lock
+
+# Test and temporary outputs
+test_output/
+temp/
+tmp/
+plots/
+output/
+results/
+benchmark_results/
+performance_logs/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.numba_cache/
+.matplotlib/
+.nv/
+
+# IDE and editor files
+*.code-workspace
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Backup files
+*.bak
+*.backup
+
+# Large generated files
+*.tgz
+*.tar.gz
+*.zip
+
+# Scientific computing
+*.h5
+*.hdf5
+*.mat
+
 # latex env
 divisor-wave-research.code-workspace
