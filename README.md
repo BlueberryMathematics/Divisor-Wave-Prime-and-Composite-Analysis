@@ -2,6 +2,8 @@
 
 ## 🌊 Mathematical Research Platform for Prime Number Theory
 
+[link to the research paper](https://github.com/BlueberryMathematics/Divisor-Wave-Prime-and-Composite-Analysis/blob/main/divisor-wave-latex/paper/Divisor_Waves_and_their_Connection_to_the_Riemann_Hypothesis.pdf)
+
 This repository contains revolutionary research on divisor wave product functions and their connection to prime number patterns through infinite product and infinite sum representations. The platform provides both theoretical foundations and practical computational tools for exploring these mathematical relationships.
 
 ## 📊 What is Divisor Wave Product Prime Complex Analysis?
